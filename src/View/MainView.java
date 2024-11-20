@@ -74,7 +74,6 @@ public class MainView {
             System.out.print("Nhập lớp: ");
             String className = scanner.nextLine();
 
-            // Removed the age input here
             Student student = new Student(id, name, className);
             studentController.addStudent(student);
             System.out.println("Thêm học sinh thành công!");
