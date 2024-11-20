@@ -8,7 +8,7 @@ import java.util.List;
 
 public class StudentController {
     private final List<Student> students = new ArrayList<>();
-    private static final String FILE_NAME = "data/students.data";
+    private static final String FILE_NAME = "students.data";
 
     public StudentController() {
         loadStudentsFromFile();
