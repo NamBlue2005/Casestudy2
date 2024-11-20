@@ -8,7 +8,7 @@ import java.util.List;
 
 public class BookController {
     private final List<Book> books = new ArrayList<>();
-    private static final String FILE_NAME = "data/books.data";
+    private static final String FILE_NAME = "books.data";
 
     public BookController() {
         loadBooksFromFile();
