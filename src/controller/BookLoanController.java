@@ -8,7 +8,7 @@ import java.util.List;
 
 public class BookLoanController {
     private final List<BookLoan> bookLoans = new ArrayList<>();
-    private static final String FILE_NAME = "book_loans.data";
+    private static final String FILE_NAME = "data/book_loans.data";
 
     public BookLoanController() {
         loadBookLoansFromFile();
